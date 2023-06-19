@@ -1,9 +1,24 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
- header{
-     color:#93A603 ;
-     color:#B9BF04;
-     color :#6F7302;
-     color : #403C01
-  
+header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(187, 107, 107);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: left;
+  }
+
+a:link,
+a:visited {
+  background-color:#403C01 ;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+}
+body{
+    background-color: #93A603;
 }
