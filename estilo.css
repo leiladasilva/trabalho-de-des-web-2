@@ -10,7 +10,7 @@ header {
 
 a:link,
 a:visited {
-  background-color:#8FC1B5 ;
+  background-color:#15cfa4 ;
   color: rgb(240, 240, 240);
   padding: 14px 25px;
   text-align: center;
@@ -45,6 +45,10 @@ button{
 }
 img{
   padding:0px;
-  width: 1500px;
+  width: 1800px;
   height: 200px;
+}
+a{
+  width: 300px;
+  height: 50px;
 }
