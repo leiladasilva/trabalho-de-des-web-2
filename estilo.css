@@ -8,7 +8,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: black;
+  background-color: rgb(32, 30, 30);
   margin: 0%;
   position: relative;
   top: 0%;
@@ -17,7 +17,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: rgb(58, 187, 53);
+  color: rgb(255, 255, 255);
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -33,7 +33,7 @@
 }
 
 .topnav a:hover {
-  background-color: rgb(127, 199, 86);
+  background-color: rgb(221, 243, 209);
   color: rgb(0, 0, 0);
 }
 
@@ -65,13 +65,13 @@ p {
 }
 
 .column img {
-  width: 900px;
+  width: 800px;
   height: 400px;
   padding: 10px;
 }
 
 #lado img {
-  width: 350px;
+  width: 370px;
   height: 350px;
   float: right;
   margin: 20px;
@@ -97,7 +97,7 @@ p {
 }
 
 .column p {
-  text-align: left;
+  text-align: center;
 }
 
 .column table,
@@ -117,4 +117,8 @@ td {
 
 .footer p {
   color: aliceblue;
+}
+.coluna1 img{
+width: 200px;
+height: 200px;
 }
