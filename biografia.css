@@ -87,7 +87,7 @@ body {
 
 #principal{
   display: grid;
-  grid-template-columns:  1fr 1fr ;
+  grid-template-columns:  1fr 1fr 1fr;
   margin: 50px;
   margin-top: 0%;
   margin-bottom: 0%;
@@ -98,13 +98,11 @@ body {
   height: 400px;
 }
 
-#lado img{
-  width: 300px;
-  height: 300px;
+#principal2{
   display: grid;
-  grid-template-columns:  1fr 1fr ;
-  margin: 500px;
-  margin-top: 0%;
-  margin-bottom:0% ;
-  
+  grid-template-columns:  1fr 1fr 1fr;
+}
+#principal2 img{
+  width: 900px;
+  height: 200px;
 }
