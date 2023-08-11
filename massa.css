@@ -85,7 +85,7 @@ img {
 }
 #img-2{
   margin: 9px;
-  width: 300px;
+  width: 400px;
 height: 150px;
 }
 #p-2{
@@ -120,6 +120,6 @@ height: 150px;
   height: 500px;
   margin: 20px;
 }
-#p-8{
-  margin: 70px;
+.content h3{
+    margin: 100px;
 }
