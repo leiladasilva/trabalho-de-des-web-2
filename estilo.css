@@ -71,7 +71,7 @@ body {
 
 .content p {
   margin: 10px;
-  height: 200px;
+  height: 70px;
 }
 
 .content img {
@@ -105,8 +105,8 @@ height: 150px;
   margin-bottom: 0%;
 }
 #p-4{
-  margin: 30px;
- padding: 10px;}
+  margin: 0px;
+ padding: 0px;}
 #p-1{
   margin: 35px;
 }
