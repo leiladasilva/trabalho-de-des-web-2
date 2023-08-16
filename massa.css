@@ -10,7 +10,8 @@
 
 :root {
   --cor-nav: #00B6C7;
-
+  --cor-topnav:rgb(255, 255, 255);
+  --cor-topnavhouver:rgb(0, 0, 0)
 }
 
 .header img {
@@ -29,7 +30,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: rgb(255, 255, 255);
+  color: var(--cor-topnav);
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -42,16 +43,15 @@
 
 .topnav p {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: var(--cor-topnavhouver);
 }
 
 .topnav a:hover {
-  background-color: rgb(221, 243, 209);
-  color: rgb(0, 0, 0);
+  background-color: var(--cor-topnav);
+  color:var(--cor-topnavhouver) ;
 }
 
 body {
-  background-color: rgb(255, 255, 255);
   text-align: justify;
   margin: 0%;
 }
