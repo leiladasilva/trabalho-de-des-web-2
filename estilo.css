@@ -99,7 +99,7 @@ height: 150px;
 }
 .content1{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
   margin: 250px;
   margin-top: 0%;
   margin-bottom: 0%;
@@ -122,4 +122,9 @@ height: 150px;
 }
 #p-8{
   margin: 70px;
+}
+#img-11{
+  width: 400px;
+  height: 400px;
+  margin: 100px;
 }
