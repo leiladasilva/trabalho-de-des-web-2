@@ -19,7 +19,7 @@
   width: 200px;
 }
 
-.topnav {
+.logo {
   background-color: var(--cor-nav);
   overflow: hidden;
   margin: 0%;
@@ -27,7 +27,7 @@
   top: 0%;
 }
 
-.topnav a {
+.logo a {
   float: left;
   display: block;
   color:var(--cor-tonava);
@@ -35,19 +35,19 @@
   text-decoration: none;
 }
 
-.topnav img {
+.logo img {
   height: 200px;
   width: 200px;
   text-align: left;
 }
 
-.topnav p {
+.logo p {
   text-align: center;
   color: var(--cor-tonava);
 
 }
 
-.topnav a:hover {
+.logo a:hover {
   background-color:var(--cor-tonava);
   color: rgb(0, 0, 0);
 }
@@ -57,7 +57,7 @@ body {
   margin: 0%;
 }
 
-.main {
+.content0 {
   text-align: center;
   margin: 30px;
 }
