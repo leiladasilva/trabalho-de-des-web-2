@@ -2,10 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Roboto+Slab&display=swap');
 
 @media(max-width : 800px) {
-  .topnav {
-    font-size: 200px;
+  .topnav{
+    font-size: 100px;
   }
 
+}
+@media(max-width : 800px){
+  .section{
+    font-size: 400px;
+  }
 }
 
 :root {
@@ -107,7 +112,7 @@ height: 150px;
   margin-bottom: 0%;
 }
 #p-4{
-  margin: 0px;
+  margin: 20px;
  padding: 0px;
  }
 #p-1{
