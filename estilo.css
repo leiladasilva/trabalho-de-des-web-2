@@ -1,25 +1,14 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2? family= Raleway:wght@300;400;600 & family= Roboto+Slab:wght@100 & family= Roboto:wght@500 & exibir=trocar');
-
-
-@media(max-width : 800px) {
-  .topnav{
-    font-size: 100px;
-  }
-
-}
-@media(max-width : 800px){
-  .section{
-    font-size: 400px;
-  }
-}
-
 :root {
   --cor-nav: #00B6C7;
   --cor-tonava: rgb(255, 255, 255);
+  --cor-animation:#00BAB7;
+  --cor-animation2:#00E0DD;
+  --cor-animation3:#A5FAF4;
+  --cor-animation4:#000000;
 
 }
-
 .header img {
   height: 200px;
   width: 200px;
@@ -206,6 +195,31 @@ footer {
   line-height: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+#p-17 {
+  width: 200px;
+  height: 20px;
+  background-color:var(--cor-nav);
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:var(--cor-animation); left:0px; top:0px;}
+  25%  {background-color:var(--cor-animation2); left:200px; top:0px;}
+  50%  {background-color:var(--cor-animation3); left:200px; top:200px;}
+  75%  {background-color:var(--cor-animation4); left:0px; top:200px;}
+  100% {background-color:var(--cor-animation3); left:0px; top:0px;}
+}
+#img-19{
+  height: 200px;
+  width: 200px;
+  
+}
+#img-12{
+  height: 100px;
+  width: 200px;
 }
 
 
