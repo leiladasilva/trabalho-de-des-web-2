@@ -188,7 +188,6 @@ footer {
   
   bottom: 0;
   background-color:var(--cor-nav);
-  color: #FFF;
   width: 100%;
   height: 250px;    
   text-align: left;
@@ -199,7 +198,7 @@ footer {
 #p-17 {
   width: 200px;
   height: 20px;
-  background-color:var(--cor-nav);
+  background-color:var(--cor-animation4);
   position: relative;
   animation-name: example;
   animation-duration: 4s;
