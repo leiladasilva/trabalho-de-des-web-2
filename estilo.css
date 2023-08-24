@@ -24,7 +24,7 @@
   width: 200px;
 }
 
-.logo {
+.header {
   background-color: var(--cor-nav);
   overflow: hidden;
   margin: 0%;
@@ -32,7 +32,7 @@
   top: 0%;
 }
 
-.logo a {
+.header a {
   float: left;
   display: block;
   color:var(--cor-tonava);
@@ -40,19 +40,19 @@
   text-decoration: none;
 }
 
-.logo img {
+.header img {
   height: 200px;
   width: 200px;
   text-align: left;
 }
 
-.logo p {
+.header p {
   text-align: center;
   color: var(--cor-tonava);
 
 }
 
-.logo a:hover {
+.header a:hover {
   background-color:var(--cor-tonava);
   color: rgb(0, 0, 0);
 }
