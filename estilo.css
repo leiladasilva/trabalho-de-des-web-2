@@ -89,6 +89,7 @@ body {
   font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
+
   
 }
 
@@ -131,6 +132,9 @@ font-family: 'Roboto Slab', serif;
  font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
+border: 1px solid;
+padding: 10px;
+box-shadow: 5px 10px #888888;
  }
 #p-1{
   margin: 35px;
@@ -203,5 +207,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 
 
